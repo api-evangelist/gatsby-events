@@ -1,0 +1,11 @@
+generated: '2026-10-21'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://help.gatsby.events/reference/getting-started/login-security
+sources:
+- https://help.gatsby.events/reference/getting-started/login-security
+standards:
+- id: soc2
+  conforms: true
+  evidence: Gatsby is SOC2 Type II certified, which means we’ve passed an independent audit of our security controls and processes.
+docs: https://help.gatsby.events/reference/getting-started/login-security

@@ -1,0 +1,21 @@
+generated: '2026-10-21'
+method: none
+source: https://registry.npmjs.org/-/v1/search?text=gatsby-events&size=5
+packages: []
+rejected:
+- name: gatsby
+  registry: npm
+  reason: 'registry has no such package: official downgraded (harvest-packages.py --audit)'
+- name: gatsby-cli
+  registry: npm
+  reason: 'registry has no such package: official downgraded (harvest-packages.py --audit)'
+- name: create-gatsby
+  registry: npm
+  reason: 'registry metadata names neither the provider''s domain nor its GitHub org: official downgraded (harvest-packages.py --audit)'
+- name: gatsby-link
+  registry: npm
+  reason: 'registry has no such package: official downgraded (harvest-packages.py --audit)'
+- name: gatsby-telemetry
+  registry: npm
+  reason: 'registry has no such package: official downgraded (harvest-packages.py --audit)'
+note: 'no first-party package: every candidate a model listed was unowned (harvest-packages.py --audit)'

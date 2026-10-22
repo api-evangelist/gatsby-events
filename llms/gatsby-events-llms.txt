@@ -1,0 +1,17 @@
+# Gatsby Help Center
+
+> Gatsby is an event management platform for professional gatherings (corporate events, AGMs, galas) that combines CRM with event tools. Core structure: Contacts (people database) → Events (date-specific gatherings) or Lists (ongoing groups) → Tools (Guest List, RSVP/Landing Pages, Email Campaigns, Seating Charts, Check-In). Events use personal RSVP links (unique per guest) or public links (open registration). Guests register via landing pages, receive confirmation emails with calendar invites, and are tracked through RSVP statuses (Invited, Clicked, Accepted, Declined, Waitlisted). The platform handles the complete event lifecycle: planning, invitations, registration, check-in, and follow-up. Integrates with Gmail/Outlook/SendGrid for email, Salesforce/Affinity for CRM, and supports parent-child event relationships for multi-session conferences.
+
+## Documentation Sets
+
+- [Abridged documentation](https://help.gatsby.events/llms-small.txt): a compact version of the documentation for Gatsby Help Center, with non-essential content removed
+- [Complete documentation](https://help.gatsby.events/llms-full.txt): the full documentation for Gatsby Help Center
+
+## Notes
+
+- The complete documentation includes all content from the official documentation
+- The content is automatically generated from the same source as the official documentation
+
+## Optional
+
+- [Gatsby Homepage](https://gatsby.events)

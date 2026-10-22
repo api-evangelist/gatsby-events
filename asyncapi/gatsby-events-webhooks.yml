@@ -1,0 +1,19 @@
+generated: '2026-10-21'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://help.gatsby.events/reference/integrations/webhooks
+sources:
+- https://help.gatsby.events/reference/integrations/webhooks
+- https://help.gatsby.events/reference/getting-started/creating-and-managing-events
+- https://help.gatsby.events/reference/event-management/event-registration
+- https://help.gatsby.events/reference/event-management/public-private-events
+description: 'Gatsby provides three webhook types:'
+events:
+- event: Event Created or Deleted
+  description: Fires when you create a new event or cancel an existing one.
+- event: Guest Created or Edited
+  description: Fires when someone new joins your guest list or when existing guests change their RSVP status.
+- event: Sync Entire Guest List
+  description: Manually triggered from within Gatsby when you want to push all guest data at once.
+delivery: {}
+docs: https://help.gatsby.events/reference/integrations/webhooks

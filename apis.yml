@@ -1,25 +1,94 @@
 aid: gatsby-events
+
 name: Gatsby
-description: 'Gatsby is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio;
-  backed by 8vc) and added to the network as a stub for full-pipeline profiling.'
+
+description: 'Gatsby Events provides an event management platform for professional gatherings, combining CRM capabilities with tools for invitations, RSVP, seating charts, check‑in, and on‑site badge printing. It supports corporate events, AGMs, and galas, offering branded pages, guest profiles, and integrations that sync to your existing CRM, all delivered via a web‑based SaaS solution.'
+
 url: https://raw.githubusercontent.com/api-evangelist/gatsby-events/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:vc-portfolio
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-21 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-21'
+
 modified: '2026-10-21'
+
 tags:
-- Company
-apis: []
+- Event Management
+- CRM Integration
+- Guest List Management
+- Invitation Email
+- Security
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
-x-backed-by:
-- 8vc
+
 common:
+- type: Webhooks
+  url: asyncapi/gatsby-events-webhooks.yml
+- type: Compliance
+  url: https://trust.gatsby.events/
+- type: Conformance
+  url: conformance/gatsby-events-conformance.yml
+- type: LLMsTxt
+  url: llms/gatsby-events-llms.txt
+- type: WellKnown
+  url: well-known/gatsby-events-well-known.yml
+- type: Hosts
+  url: hosts/gatsby-events-hosts.yml
+- type: Vendors
+  url: vendors/gatsby-events-vendors.yml
+- type: TermsOfService
+  url: https://gatsby.events/tos/
+- type: PrivacyPolicy
+  url: https://gatsby.events/privacy-policy
+- type: Pricing
+  url: https://gatsby.events/pricing/
+- type: Login
+  url: https://gatsby.events/login
+- type: GitHubOrganization
+  url: https://github.com/gatsbylabs
+- type: APIReference
+  url: https://help.gatsby.events/reference/
+- type: GettingStarted
+  url: https://help.gatsby.events/reference/getting-started/creating-and-managing-events
+- type: Documentation
+  url: https://help.gatsby.events/
+- type: TrustCenter
+  url: security/gatsby-events-trust-center.yml
+- type: DomainSecurity
+  url: security/gatsby-events-domain-security.yml
 - type: Website
   url: https://gatsby.events
+
+apis: []
+
+x-backed-by:
+- 8vc
+
+x-coverage:
+  state: none
+  reason: no-developer-program
+  method: derived
+  generated: '2026-10-21'
+  generator: derive-coverage.py (pre-flight evidence)
+  detail: >-
+    the company publishes no developer documentation host and no machine-readable contract on its own domain
+  evidence:
+  - url: https://gatsby.events
+    status: 200
+x-enrichment:
+  date: '2026-10-21'
+  status: enriched
+  artifacts_added: 15
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local
